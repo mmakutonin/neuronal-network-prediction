@@ -6,3 +6,4 @@ data/pca_models_pickled/*
 data/data_meta_pickled/*
 data/results/*
 data/data_synthesized_pickled/*
+__pycache__
