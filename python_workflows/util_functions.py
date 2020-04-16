@@ -16,6 +16,10 @@ def pickle_file(data_path, python_obj):
     with open('../data/' + data_path, 'wb') as pickle_file:
         pickle.dump(python_obj, pickle_file, protocol=pickle.HIGHEST_PROTOCOL)
 
-# returns current system time string
-def get_current_time():
-    return datetime.now().time()
+# prints operation start dialogue
+def starting_run(operation_name=''):
+    print('Starting ' + operation_name + ' ' + str(datetime.now().time()))
+
+# prints operation completion dialogue
+def finished_run(operation_name=''):
+    print('Finished ' + operation_name + ' ' + str(datetime.now().time()))
