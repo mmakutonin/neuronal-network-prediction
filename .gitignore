@@ -1,9 +1,3 @@
 .ipynb_checkpoints
-data/data_raw_from_paper/*
-data/data_raw_pickled/*
-data/data_cleaned/*
-data/pca_models_pickled/*
-data/data_meta_pickled/*
-data/results/*
-data/data_synthesized_pickled/*
+data/
 __pycache__
